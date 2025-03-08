@@ -23,24 +23,24 @@ export default function SigninPage() {
             <p className="font-medium text-white text-medium">Password</p>
             <div className="px-[14px] py-[10px] w-full bg-custom_black_2 rounded-3xl flex gap-2">
               <input type="password" className="bg-transparent outline-none text-white hover:outline-none w-full" placeholder="•••••••"/>
-              <img src="/icons/eye.svg" alt="" className="" />
+              <img src="/icons/eye.svg" alt="" className="cursor-pointer" />
             </div>
           </div>
         </div>
 
         <div className="flex justify-between">  
           <div className="flex gap-2">
-            <img src="/icons/Checkbox.svg" alt="" />
+            <img src="/icons/Checkbox.svg" alt="" className="cursor-pointer"/>
             <p className="text-white font-medium text-medium">Remember for 30 days</p>
           </div>
-          <div className="text-custom_purple_1 font-medium text-medium">Forgot password</div>
+          <div className="text-custom_purple_1 font-medium text-medium cursor-pointer">Forgot password</div>
         </div>
 
         <div className="gap-4 flex-col flex">
-          <div className="bg-custom_purple_1 rounded-3xl py-[10px] text-center">
+          <div className="bg-custom_purple_1 rounded-3xl py-[10px] text-center cursor-pointer">
             <p className="text-white font-medium text-medium">Sign in</p>
           </div>
-          <div className="bg-custom_black_1 rounded-3xl py-[10px] flex justify-center gap-3">
+          <div className="bg-custom_black_1 rounded-3xl py-[10px] flex justify-center gap-3 cursor-pointer">
             <img src="/icons/Social icon.svg" alt="" />
             <p className="text-white font-medium text-medium">Sign in with Google</p>
           </div>
@@ -48,7 +48,7 @@ export default function SigninPage() {
 
         <div className="flex gap-1 justify-center">
           <p className="text-white font-medium text-medium">Don&apos;t have an account?</p>
-          <p className="text-custom_purple_1 font-medium text-medium">Sign up</p>
+          <p className="text-custom_purple_1 font-medium text-medium cursor-pointer">Sign up</p>
         </div>
 
       </div>
