@@ -7,6 +7,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ["var(--font-geist-sans)", ...fontFamily.sans],
+        inter: ['Inter', 'sans-serif']
       },
       colors: {  
         // Custom colors  
@@ -23,8 +24,19 @@ export default {
         custom_purple_1: '#8758FF',
         custom_yellow_1: '#FFC43A',
         custom_blue_1: '#50D1B2',
-        custom_blue_2: '# 476CEC'
-       },   
+        custom_blue_2: '#476CEC',
+        custom_white_1: '#F1F1F1'
+      }, 
+      fontSize: {  
+        small: ['24px', { lineHeight: '1.5', letterSpacing: '0' }],  
+        medium: ['16px', { lineHeight: '1.5', letterSpacing: '0' }],  
+        large: ['30px', { lineHeight: '1.5', letterSpacing: '0' }],  
+      },  
+      fontWeight: {  
+        normal: '400',  
+        medium: '600',  
+        bold: '700',  
+      },
     },
   },
   plugins: [],
