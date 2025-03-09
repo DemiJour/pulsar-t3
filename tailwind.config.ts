@@ -28,7 +28,7 @@ export default {
         custom_white_1: '#F1F1F1'
       }, 
       fontSize: {  
-        small: ['24px', { lineHeight: '1.5', letterSpacing: '0' }],  
+        small: ['14px', { lineHeight: '1.5', letterSpacing: '0' }],  
         medium: ['16px', { lineHeight: '1.5', letterSpacing: '0' }],  
         large: ['30px', { lineHeight: '1.5', letterSpacing: '0' }],  
       },  

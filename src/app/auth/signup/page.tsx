@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 
-export default function SigninPage() {
+export default function SignupPage() {
   return (
     <div className="pt-24 flex justify-center">
       <div className="w-[360px] gap-8 flex flex-col h-fit">
