@@ -2,8 +2,8 @@
 
 export default function SignupPage() {
   return (
-    <div className="pt-24 flex justify-center">
-      <div className="w-[360px] gap-8 flex flex-col h-fit">
+    <div className=" pt-20 flex justify-center">
+      <div className="w-[360px] gap-8 flex flex-col">
         <img src="/logos/Logomark.svg" alt="" className="mx-auto" />
 
         <div className="flex flex-col text-center gap-3">
