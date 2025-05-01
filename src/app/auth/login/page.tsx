@@ -39,7 +39,7 @@ export default function LoginPage() {
                   </div>
                   <div>
                     <div className="px-[14px] py-[10px] w-full bg-custom_black_2 rounded-3xl flex gap-2 items-center">
-                      <p className="text-medium font-normal text-white w-11 flex">US <img src="/icons/chevron-down.svg" className="w-5 h-5" alt="" /></p>
+                      <div className="text-medium font-normal text-white w-11 flex">US <img src="/icons/chevron-down.svg" className="w-5 h-5" alt="" /></div>
                       <input type="text" className="bg-transparent outline-none text-white hover:outline-none w-full" placeholder="+1 (555) 000-0000"/>
                     </div>
                   </div>

@@ -16,10 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
       <body>
-        <div className="bg-custom_black_3 min-h-screen">
-          <HeaderPage />
-          {children}
-        </div>
+        {children}
       </body>
     </html>
   );
