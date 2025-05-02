@@ -12,14 +12,15 @@ export default function SiderBar() {
 
 	return (
 		<div className="h-screen w-[256px] bg-custom_black_1 flex flex-col gap-8 p-[25px] top-[60px]">
-			<ul>
+			<ul className='h-[338px]'>
 				{siderBarMenus.map((menu, index) => (
-					<li key={index} className={`flex items-center gap-[10px] py-[11px] pr-[15px] pl-[21px] rounded-[48px] ${menu.status ? 'bg-custom_purple_1': 'hover:bg-custom_black_2'}`}>
+					<li key={index} className={`my-1 flex items-center gap-[10px] py-[11px] pr-[15px] pl-[21px] rounded-[48px] ${menu.status ? 'bg-custom_purple_1': 'hover:bg-custom_black_2'}`}>
 						<Image src={menu.icon} alt={`${menu.name} icon`} width={22} height={22} className="w-6 h-6" />
-						<span className='text-custom_gray_2'>{menu.name}</span>
+						<span className={`text-small cursor-pointer ${!menu.status ? 'text-custom_gray_2': 'text-white'}`}>{menu.name}</span>
 					</li>
 				))}
 			</ul>
+			<div className='bg-white w-full h-[1px] my-[23.22px]'></div>
 		</div>
 	);
 }
